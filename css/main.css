@@ -1,0 +1,351 @@
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+}
+
+/* Body Margin */
+body {
+  margin: 0;
+  background-color: #f0f4f9;
+}
+
+/* clear fix */
+.clear-fix {
+  clear: both;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+/* Start Header Section */
+
+header {
+  margin-top: 20px;
+}
+
+header .container {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #173b6c;
+  padding: 40px;
+  border-radius: 25px;
+  color: white;
+}
+
+header .container h1 {
+  margin: 20px 0px;
+}
+
+header .container p {
+  margin: 20px 10px 20px 15px;
+  color: #93c5fd;
+}
+
+header .container .links {
+  margin: 35px 0px 10px 0px;
+}
+
+header .container .links a {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  opacity: 0.9;
+  margin-left: 10px;
+}
+
+/* End Header Section */
+
+/* Start About Section */
+#about {
+  margin-top: 20px;
+}
+#about .container {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #f1f5f9;
+  border-radius: 25px;
+}
+#about .container .image {
+  width: 25%;
+  height: 25%;
+  padding: 10px 40px;
+  float: left;
+}
+#about .container .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#about .container h2 {
+  border-bottom: 1px solid #b6c8db;
+  /* padding: 10px 0px; */
+  padding: 20px 0px 10px 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #173b6c;
+}
+
+#about .container .description {
+  width: 75%;
+  float: left;
+  padding: 20px 0px;
+}
+#about .container .description p .first-line {
+  color: gray;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+#about .container .description p .first-line span {
+  color: #1559b8;
+  font-weight: bold;
+}
+
+#about .container .description p .second-line {
+  font-size: 15px;
+  color: gray;
+}
+#about .container .description a {
+  background-color: #173b6c;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 16px;
+  display: inline-block;
+  margin-top: 1px;
+}
+/* End About Section */
+
+/* Start Skills Section */
+#skills {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#skills .container {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #f1f5f9;
+  border-radius: 25px;
+}
+
+#skills .container h2 {
+  border-bottom: 1px solid #b6c8db;
+  /* padding: 20px 0px; */
+  padding: 20px 0px 10px 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #173b6c;
+}
+
+#skills .container p.skills-p {
+  padding: 2px 0px 10px 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #475569;
+}
+
+#skills .container div.html,
+#skills .container div.css,
+#skills .container div.javascript,
+#skills .container div.react {
+  width: 25%;
+  float: left;
+  background-color: rgba(248, 250, 252, 0.5); 
+  padding: 10px; 
+}
+.inner{
+  border-radius: 16px;
+  border: 1px solid #bfdbfe;
+}
+#skills .container div.html h3,
+#skills .container div.css h3,
+#skills .container div.javascript h3,
+#skills .container div.react h3 {
+  color: #173b6c;
+  font-weight: 700;
+  font-size: large;
+  padding: 8px 10px 10px 13px;
+}
+#skills .container div.html p,
+#skills .container div.css p,
+#skills .container div.javascript p,
+#skills .container div.react p {
+  color: #475569;
+  padding: 0px 10px 20px 13px;
+}
+#skills .container div.html p span {
+  display: block;
+}
+
+#skills .container div.my-skills {
+  width: 92%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+#skills .container div.react span {
+  display: block;
+}
+/* End Skills Section */
+
+/* Start Experience Section */
+#experience {
+  margin-bottom: 20px;
+}
+#experience .container {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #f1f5f9;
+  border-radius: 25px;
+}
+
+#experience .container h2 {
+  border-bottom: 1px solid #b6c8db;
+  padding: 20px 0px 10px 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #173b6c;
+  margin-bottom: 20px;
+}
+
+#experience .container div .image {
+  width: 10%;
+  float: left;
+  border-radius: 16px;
+  border: 1px solid #bfdbfe;
+  background-color: rgba(248, 250, 252, 0.5);
+  padding: 10px;
+}
+
+#experience .container div .content {
+  float: left;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+#experience .container div .image img {
+  width: 100%;
+}
+
+#experience .container div.projects {
+  padding: 0px 30px;
+}
+
+#experience .container div.projects h4 {
+  color: #1559b8;
+}
+
+#experience .container div.projects p.content-description {
+  padding: 5px 0px 18px 0px;
+  margin: 0;
+}
+
+#experience .container div.first-project,
+#experience .container div.second-project {
+  background-color: #f0f4f9;
+  border-left: 5px solid #173b6c;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+/* End Experience Section */
+
+/* Start Contact Section */
+#contact{
+  margin-bottom: 20px;
+}
+#contact .container {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #173b6c;
+  border-radius: 16px;
+  padding-bottom: 40px;
+}
+
+#contact .container h2 {
+  border-bottom: 1px solid gray;
+  padding-top: 35px;
+  padding-bottom: 20px; 
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+
+#contact .container p{
+  padding: 10px; 
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+
+#contact .container a.linkedin{
+  padding: 20px; 
+  margin-left: 45px;
+  margin-right: 30px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  opacity: 0.9;
+  text-align: center;
+
+}
+#contact .container a.linkedin{
+  padding: 20px; 
+  margin-left: 45px;
+  margin-right: 10px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  opacity: 0.9;
+  text-align: center;
+
+}
+#contact .container a.github{
+    padding: 20px; 
+ 
+  
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  opacity: 0.9;
+  text-align: center;
+}
+/* End Contact Section */
+
+/* Start Last Section */
+#last-section{
+  margin-bottom: 20px;
+}
+#last-section .container{
+  width: 75%;
+  margin: 0 auto;
+  background-color: #031329;
+  border-radius: 16px;  
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#last-section .container p span{
+  color: blue;
+  margin-left: 4px;
+}
+/* End Last Section  */
